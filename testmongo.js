@@ -33,8 +33,8 @@ app.get('/api/mongo/:item', function (req, res) {
 
   async function run() {
     try {
-      const database = client.db('sample_mflix');
-      const parts = database.collection('movies');
+      const database = client.db('MyDbExample');
+      const parts = database.collection('MyStuff');
 
       // Hardwired Query for a part that has partID '12345'
       // const query = { partID: '12345' };
